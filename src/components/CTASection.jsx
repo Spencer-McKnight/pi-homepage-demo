@@ -37,7 +37,7 @@ export default function CTASection() {
               type="submit"
               className="bg-pi-coral hover:bg-pi-coral-hover text-white font-semibold px-6 py-3 rounded-lg transition-colors whitespace-nowrap"
             >
-              Sign Up Free
+              Subscribe
             </button>
           </form>
 
