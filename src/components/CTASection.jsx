@@ -4,7 +4,6 @@ const BENEFITS = [
   'Post questions in the forum',
   'Access free resources & guides',
   'Save deals in the calculator',
-  'Weekly investment insights',
 ]
 
 export default function CTASection() {

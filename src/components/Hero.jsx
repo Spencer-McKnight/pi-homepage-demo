@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="#signup" className="bg-pi-coral hover:bg-pi-coral-hover text-white font-semibold px-6 py-3 rounded-lg transition-colors">
-              Start Here
+              Sign Up
             </a>
             <a href="#forum" className="bg-white/10 hover:bg-white/20 text-white font-medium px-6 py-3 rounded-lg transition-colors">
               Browse Forum

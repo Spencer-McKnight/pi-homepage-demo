@@ -29,7 +29,6 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
               <img src="/propertyinvesting-logo.png" alt="" className="h-8 w-auto" />
-              <span className="font-semibold">PropertyInve$ting</span>
             </div>
             <p className="text-sm text-gray-400">
               Australia's property investment community since 2001.

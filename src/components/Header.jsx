@@ -28,10 +28,6 @@ export default function Header() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 shrink-0">
             <img src="/propertyinvesting-logo.png" alt="" className="h-8 w-auto" />
-            <div className="hidden sm:block">
-              <span className="font-semibold text-lg">PropertyInve$ting</span>
-              <span className="text-xs text-white/60 block -mt-1">Since 2001</span>
-            </div>
           </a>
 
           {/* Desktop Nav */}

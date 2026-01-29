@@ -2,138 +2,76 @@
 
 ## Project Context
 
-This is an experimental React project for testing alternative homepage layouts for PropertyInvesting.com (PI), an Australia-based property investment education community.
+Experimental React project for testing alternative homepage layouts for PropertyInvesting.com (PI).
 
 **About PropertyInvesting.com:**
-- 20+ year-old community centered around property investment education
-- Primary audience: Australians interested in property investing (both seasoned and tentative investors)
+- 20+ year-old Australian property investment education community
+- Primary audience: Australians interested in property investing (seasoned to beginner)
 - Core features: Forum, training courses, seminars, community interaction
 - Current objective: Turn visitors into repeat interactors
-- Revenue model: Course/seminar sales driven by publicity and mailing list
+- Revenue: Course/seminar sales via publicity and mailing list
 
-## Tech Stack
+## Constraints
 
-- **Framework**: React 18+ with Vite
-- **Styling**: Tailwind CSS (preferred for rapid prototyping)
-- **Icons**: lucide-react or heroicons
-- **No backend required**: Static demo pages with mock data
+- **Keep it simple**: This is a demo - concise styling and code
+- **Use React**: Abstract each key component
+- **Responsive**: Consider both mobile and desktop
+- **Static**: No backend required, use mock data
 
-## Design Goals
+## Required Navigation Structure
 
-1. **Conversion-focused**: Design should encourage visitor engagement and repeat visits
-2. **Trust signals**: Showcase 20+ years of credibility, community size, success stories
-3. **Clear value proposition**: Make it immediately obvious what PI offers
-4. **Community feel**: Highlight forum activity, member testimonials, interaction
-5. **Professional yet approachable**: Balance authority with accessibility
-6. **Mobile-first**: Fully responsive design
+**Primary navigation items (empty links for now):**
+- Training Courses
+- Forum Home
+- Calculator Home
+- Books
+- External link to SOGIF.au
+- My account
 
-## Key Elements to Experiment With
+**Secondary navigation:**
+- About
+- Contact
+- Finance
+- Blog
 
-- Hero section variations (video backgrounds, testimonials, stats)
-- Forum preview/activity feed positioning
-- Course/seminar showcase approaches
-- Call-to-action placement and messaging
-- Navigation patterns (sticky, mega menu, simple)
-- Social proof integration (member count, testimonials, recent activity)
-- Value proposition clarity
-- Trust indicators (years in business, success metrics)
+## Key Call-to-Action
 
-## Development Standards
+**Sign up to become a member** - Benefits to highlight:
+- Forum posting access
+- Free resources
+- Save deals on calculator
+- Regular updates
 
-### Component Structure
-- Use functional components with hooks
-- Keep components under 150 lines; split if larger
-- One component per file
-- Use descriptive, semantic component names
+## Tech Stack Suggestions
 
-### Code Style
-- Use TypeScript or JSX (TypeScript preferred)
-- Destructure props at component top
-- Use meaningful variable names (no single letters except loop counters)
-- Add brief comments for complex logic
+- React 18+ (Vite recommended for setup)
+- Tailwind CSS or similar for rapid styling
+- Any icon library (lucide-react, heroicons, etc.)
 
-### Mock Data
-- Create realistic mock data for forum posts, testimonials, courses
-- Use Australian context (locations, dollar amounts, terminology)
-- Include realistic timestamps, member names, engagement metrics
+## Design Approach
 
-### Performance
-- Lazy load images
-- Use semantic HTML (header, nav, main, article, section)
-- Optimize for Core Web Vitals
+**Goal**: Convert visitors into repeat interactors
 
-## Demo Site Requirements
+**Things to consider** (experiment freely):
+- Trust signals (20+ years, community size, testimonials)
+- Forum activity visibility
+- Clear value proposition
+- Course/training showcase
+- Community feel vs professional authority balance
+- Mobile-first or desktop-first approach
 
-1. **Multiple Layout Variants**: Create 2-3 distinct homepage approaches to compare
-2. **Navigation Between Variants**: Simple menu to switch between layouts
-3. **Responsive**: Must work beautifully on mobile, tablet, desktop
-4. **Polish**: Production-quality visuals, not wireframes
-5. **Interactive Elements**: Hover states, smooth transitions, working links (even if they go nowhere)
-6. **Accessibility**: Proper contrast, alt text, keyboard navigation
+**Content tone**: 
+- Australian English
+- Knowledgeable but approachable
+- Focus on outcomes and community value
 
-## Content Guidelines
+## Quality Expectations
 
-- Use Australian English spelling (e.g., "centre" not "center")
-- Tone: Knowledgeable but friendly, experienced but not condescending
-- Focus on outcomes: "Build wealth through property" vs "Learn about property investing"
-- Emphasize community and proven track record
-
-## What Good Looks Like
-
-✅ Clean, modern layouts that feel 2024+ (avoid dated forum aesthetics)
-✅ Clear hierarchy and visual flow guiding visitors to key actions
-✅ Balanced use of white space
-✅ Strategic use of color (Australian investment context suggests trust colors like blue/green)
-✅ Fast loading, smooth interactions
-✅ Realistic, compelling copy and mock content
-
-❌ Generic template look
-❌ Cluttered information-dense designs
-❌ Unclear calls-to-action
-❌ Poor mobile experience
-❌ Lorem ipsum placeholder text
-
-## Quick Start Commands
-
-When setting up the project, suggest:
-```bash
-npm create vite@latest . -- --template react
-npm install tailwindcss postcss autoprefixer lucide-react
-npx tailwindcss init -p
-```
-
-## File Organization
-
-```
-src/
-  components/
-    layouts/
-      Layout1.jsx    # First homepage variant
-      Layout2.jsx    # Second homepage variant
-      Layout3.jsx    # Third homepage variant (optional)
-    shared/
-      Header.jsx
-      Footer.jsx
-      CTAButton.jsx
-    sections/
-      HeroSection.jsx
-      ForumPreview.jsx
-      CoursesSection.jsx
-      TestimonialsSection.jsx
-  data/
-    mockData.js      # Realistic mock content
-  App.jsx            # Layout switcher/router
-```
-
-## Priority Focus
-
-When creating demos, prioritize:
-1. **Above-the-fold impact**: First impression is critical
-2. **Clear value proposition**: Visitor should understand PI in 3 seconds
-3. **Conversion pathways**: Multiple clear CTAs for engagement
-4. **Trust building**: Showcase credibility immediately
-5. **Community visibility**: Make the active forum obvious
+- Modern, clean aesthetics (avoid dated forum look)
+- Functional responsive design
+- Realistic mock content (no lorem ipsum)
+- Production-ready polish
 
 ---
 
-**Remember**: This is a demo to test ideas. Focus on visual design and layout experimentation, not complex functionality. The goal is to find layouts that better convert visitors into repeat interactors.
+**Remember**: Experiment with layouts, hierarchy, and design approaches. The goal is to discover what works best for converting visitors into engaged community members.
