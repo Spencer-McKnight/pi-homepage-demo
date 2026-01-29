@@ -1,0 +1,7 @@
+[PropertyInvesting.com](http://PropertyInvesting.com) (PI) is an Australia-based monetised investment community created by Steve McKnight (Owner) and team to deliver a range of value for seasoned or tentative investors interested in property. The project was created initially to foster a space where Steve could share his wealth of knowledge, advise, and interact with the community.
+
+The site has historically been primarily a forum that funnels into purchased training courses and seminars. Other projects have been launched with PI as a base, such as Money Magnet, from 0 to 130++ properties series, his US-based property fund, and most recently SOGIF his venture with Paul Harper managing property funds to bring reliable portfolio returns to Australians.
+
+Most of the ongoing revenue for PI is generated through sales for courses and seminars, which are largely purchased following publicity initiatives by Steve or utilising a vast user mailing list.
+
+With the user base of personal-insight hungry and opinionated seasoned investors, and a target market of Australians who want to learn about investing in property, PI has delivered value for 20+ years through the forum at its heart and educational publications. The current objective is to turn visitors into repeat interactors.
