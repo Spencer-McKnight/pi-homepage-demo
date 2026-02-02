@@ -1,0 +1,77 @@
+# PropertyInvesting.com Homepage Redesign Project
+
+## Project Context
+
+Experimental React project for testing alternative homepage layouts for PropertyInvesting.com (PI).
+
+**About PropertyInvesting.com:**
+- 20+ year-old Australian property investment education community
+- Primary audience: Australians interested in property investing (seasoned to beginner)
+- Core features: Forum, training courses, seminars, community interaction
+- Current objective: Turn visitors into repeat interactors
+- Revenue: Course/seminar sales via publicity and mailing list
+
+## Constraints
+
+- **Keep it simple**: This is a demo - concise styling and code
+- **Use React**: Abstract each key component
+- **Responsive**: Consider both mobile and desktop
+- **Static**: No backend required, use mock data
+
+## Required Navigation Structure
+
+**Primary navigation items (empty links for now):**
+- Training Courses
+- Forum Home
+- Calculator Home
+- Books
+- External link to SOGIF.au
+- My account
+
+**Secondary navigation:**
+- About
+- Contact
+- Finance
+- Blog
+
+## Key Call-to-Action
+
+**Sign up to become a member** - Benefits to highlight:
+- Forum posting access
+- Free resources
+- Save deals on calculator
+- Regular updates
+
+## Tech Stack Suggestions
+
+- React 18+ (Vite recommended for setup)
+- Tailwind CSS or similar for rapid styling
+- Any icon library (lucide-react, heroicons, etc.)
+
+## Design Approach
+
+**Goal**: Convert visitors into repeat interactors
+
+**Things to consider** (experiment freely):
+- Trust signals (20+ years, community size, testimonials)
+- Forum activity visibility
+- Clear value proposition
+- Course/training showcase
+- Community feel vs professional authority balance
+- Mobile-first or desktop-first approach
+
+**Content tone**: 
+- Australian English
+- Knowledgeable but approachable
+- Focus on outcomes and community value
+
+## Quality Expectations
+
+- Modern, clean aesthetics (avoid dated forum look)
+- Functional responsive design
+- Realistic mock content (no lorem ipsum)
+- Production-ready polish
+
+---
+
+**Remember**: Experiment with layouts, hierarchy, and design approaches. The goal is to discover what works best for converting visitors into engaged community members.
