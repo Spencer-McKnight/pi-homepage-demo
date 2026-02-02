@@ -9,7 +9,7 @@ import HomeV3 from './pages/HomeV3'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pi-homepage-demo">
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
