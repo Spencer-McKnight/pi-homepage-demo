@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <img src="/propertyinvesting-logo.png" alt="" className="h-8 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}propertyinvesting-logo.png`} alt="" className="h-8 w-auto" />
             </div>
             <p className="text-sm text-gray-400">
               Australia's property investment community since 2001.

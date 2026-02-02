@@ -17,7 +17,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-no-repeat bg-[length:auto_100%] bg-right bg-bottom"
           style={{
-            backgroundImage: 'url(/Coast_of_Australia.svg)',
+            backgroundImage: `url(${import.meta.env.BASE_URL}Coast_of_Australia.svg)`,
             backgroundPosition: 'right center',
           }}
         />

@@ -27,7 +27,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 shrink-0">
-            <img src="/propertyinvesting-logo.png" alt="" className="h-8 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}propertyinvesting-logo.png`} alt="" className="h-8 w-auto" />
           </a>
 
           {/* Desktop Nav */}
